@@ -20,7 +20,7 @@ gcc -Wall -Werror first.c -o first.exe
 - `git add ./*` : stage all the files 
 - `git commit -m "initial commit"` : commit the files
 
-###  Pushing to GitHub
+###  Push to GitHub
 
 After setting this **local** repo up on out local machine, we intend to push this to a **remote** repo on a GitHub server(another computer somewhere else in the world).
 
