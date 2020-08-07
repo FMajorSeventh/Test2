@@ -26,7 +26,7 @@ After setting this **local** repo up on out local machine, we intend to push thi
 
 - open your GitHub account and create a new repository (public)
 Accessing the github repo via the url which typically take the form: `https://github.com/User/Repository-name` can be tedious so we need to set up a **remote**.<br> remote = a connection between local computer and the public github server that will host your code.
-   - create a remote :`git remote add [options]... [nikname] [url]`
+- create a remote :`git remote add [options]... [nikname] [url]`
 
 As an example the one I have used is :
 ```shell
@@ -34,6 +34,12 @@ git remote add my_public_repo https://www.github.com/FMajorSeventh/Test
 ```
 > we can add a .git to the name of the github repository but it is not required
 
+- now we have to **push** them into our git account online
+> pushing = adding files to a public server(after making changes)
+> fetching = accessing files from a public server(to make changes)
+
+```shell
+git push -u public master
 
 
 
